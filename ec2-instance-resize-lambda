@@ -10,7 +10,7 @@ def wait_until_instance_stopped(ec2_client, instance_id):
         print(f"Error waiting for instance to stop: {e}")
 
 def lambda_handler(event, context):
-    # Retrieve the instance ID and region from the event parameter
+    # Retrieve the instance ID and region from the event paramete
     instance_id = event['instanceId']
     region = event.get('region', 'ap-south-1')  # Default to ap-south-1 if region not provided
     
