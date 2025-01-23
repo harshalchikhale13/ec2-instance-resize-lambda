@@ -31,7 +31,7 @@ This repository contains an AWS Lambda function to resize an EC2 instance by sto
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SushilDhore/ec2-instance-resize-lambda.git
+   git clone https://github.com/harshalchikhale13/ec2-instance-resize-lambda.git
    cd ec2-instance-resize-lambda
 
 
